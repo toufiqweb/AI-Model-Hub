@@ -13,7 +13,7 @@
     "description": "Built by xAI with real-time knowledge from X.\nHelpful, witty, and maximally truth-seeking AI.",
     "price": 30,
     "image": "https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/grok-icon.png",
-    "status": "favourite"
+    "status": "favorite"
   },
   {
     "id": 3,
@@ -37,7 +37,7 @@
     "description": "Anthropic's thoughtful and safe AI model.\nBest for long-context writing, analysis, and coding.",
     "price": 20,
     "image": "https://static.vecteezy.com/system/resources/thumbnails/067/941/712/small_2x/claude-ai-logo-rounded-hd-free-png.png",
-    "status": "favourite"
+    "status": "favorite"
   },
   {
     "id": 6,
@@ -61,7 +61,7 @@
     "description": "European AI company known for efficient models.\nStrong performance in coding and multilingual tasks.",
     "price": 20,
     "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Mistral_AI_logo_%282025%E2%80%93%29.svg/1280px-Mistral_AI_logo_%282025%E2%80%93%29.svg.png",
-    "status": "favourite"
+    "status": "favorite"
   },
   {
     "id": 9,
