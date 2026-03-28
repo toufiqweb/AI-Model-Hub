@@ -9,6 +9,13 @@ const Model = ({ model,  carts , setCarts }) => {
 
     !setIsSubscribe(true)
 
+    const isFound = carts.find(item => item.id === model.id);
+
+    if (isFound) {
+      alert("item already added")
+      return
+    }
+
     setCarts([...carts , model])
 
   }

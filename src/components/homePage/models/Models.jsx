@@ -8,11 +8,11 @@ const Models = ({modelPromise , carts , setCarts}) => {
     
 
     return (
-        <div className='w-7xl mx-auto space-y-10 py-20 px-5'>
+        <div className='max-w-7xl mx-auto space-y-10 py-20 px-5'>
 
             <div className='text-center space-y-5'>
-                <h2 className='text-5xl font-bold'>Choose Your AI Model</h2>
-                <p className=' text-lg text-gray-400 '>One subscription gives you access to all frontier AI models</p>
+                <h2 className='text-3xl md:text-5xl font-bold'>Choose Your AI Model</h2>
+                <p className='text-[16px] md:text-lg text-gray-400 '>One subscription gives you access to all frontier AI models</p>
             </div>
             
             <div className='grid  md:grid-cols-2 lg:grid-cols-3 gap-10 '>
