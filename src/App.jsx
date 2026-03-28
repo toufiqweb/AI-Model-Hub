@@ -1,13 +1,16 @@
 import "./App.css";
+import Banner from "./components/homePage/Banner";
+import Footer from "./components/homePage/Footer";
+import Models from "./components/homePage/models/Models";
+import NavBar from "./components/homePage/NavBar";
 
 function App() {
   return (
     <>
-      <div className="navbar bg-base-100 shadow-sm">
-        <a className="btn btn-ghost text-xl">daisyUI</a>
-      </div>
-
-      <h1 className="text-6xl text-red-500">hello react</h1>
+      <NavBar />
+      <Banner />
+      <Models/>
+      <Footer/>
     </>
   );
 }
