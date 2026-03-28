@@ -34,7 +34,7 @@ const Model = ({ model,  carts , setCarts }) => {
 
 
   return (
-    <div className="max-w-sm bg-white rounded-3xl shadow-xl overflow-hidden">
+    <div className=" bg-white rounded-3xl shadow-xl overflow-hidden">
       <div className="bg-gray-100 pt-8 pb-6 flex justify-center relative">
         <div
           //   className={`absolute top-6 right-6 text-white

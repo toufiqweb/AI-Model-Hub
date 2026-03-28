@@ -27,13 +27,13 @@ function App() {
       <NavBar />
       <Banner />
 
-      <Tabs activeTab={activeTab} setActiveTab={setActiveTab}/>
+      <Tabs activeTab={activeTab} setActiveTab={setActiveTab} carts={carts}/>
 
       {
         activeTab === "model"?  
          <Models modelPromise={modelPromise} carts={carts} setCarts={setCarts}/>
         :  
-        <Cart carts={carts}/> 
+        <Cart carts={carts} setCarts={setCarts}/> 
       }
      
       

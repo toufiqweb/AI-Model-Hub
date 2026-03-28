@@ -1,5 +1,6 @@
+import Cart from "../homePage/cart/Cart";
 
-const Tabs = ({activeTab,setActiveTab}) => {
+const Tabs = ({activeTab,setActiveTab, carts}) => {
  
 
   return (
@@ -16,7 +17,7 @@ const Tabs = ({activeTab,setActiveTab}) => {
         type="radio"
         name="my_tabs_1"
         className={`tab rounded-full px-5 w-50 ${activeTab === "cart" && "bg-linear-to-r from-pink-500 to-red-500 text-white"}`}
-        aria-label="Cart"
+        aria-label={`Cart (${carts.length})`}
         onClick={() => setActiveTab("cart")}
       />
     </div>
