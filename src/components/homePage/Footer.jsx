@@ -107,9 +107,30 @@ const Footer = () => {
         <div className="mt-16 pt-8 border-t border-zinc-800 flex flex-col md:flex-row items-center justify-between gap-4 text-sm text-zinc-500">
           <div>© {new Date().getFullYear()} AI Hub. All rights reserved.</div>
 
-          <div className="flex gap-6">
-            <a href="#" className="hover:text-red-400 transition">
-              Made with ❤️ for AI enthusiasts
+          <div className="flex items-center gap-2 text-gray-500 text-sm md:text-base">
+            <span>Developed by</span>
+            <a
+              href="https://github.com/toufiqweb"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="font-medium text-red-600 hover:text-red-500 transition-colors 
+               inline-flex items-center gap-1 hover:underline underline-offset-2"
+            >
+              Toufiq Web
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                className="w-3.5 h-3.5 opacity-70 group-hover:opacity-100 transition-opacity"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth={2.5}
+                  d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L9 15"
+                />
+              </svg>
             </a>
           </div>
         </div>
