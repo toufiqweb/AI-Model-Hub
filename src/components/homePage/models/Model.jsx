@@ -1,7 +1,17 @@
-import React from "react";
+import React, { useState } from "react";
 
-const Model = ({ model }) => {
+const Model = ({ model,  carts , setCarts }) => {
   //   console.log(model);
+
+  const [isSubscribe , setIsSubscribe] = useState(false)
+
+  const handleSubscribe = () => {
+
+    !setIsSubscribe(true)
+
+    setCarts([...carts , model])
+
+  }
 
   const status = {
     popular: {
@@ -20,7 +30,7 @@ const Model = ({ model }) => {
 
   const currentStatus = status[model.status];
 
-  console.log(currentStatus.color);
+  // console.log(currentStatus.color);
 
 
   return (
@@ -42,7 +52,7 @@ const Model = ({ model }) => {
 
           {currentStatus.icon}
           {model.status}
-          
+
         </div>
 
         <div className="w-28 h-28 rounded-2xl flex items-center justify-center">
@@ -61,13 +71,15 @@ const Model = ({ model }) => {
           <span
             className={`text-3xl font-bold ${model.price === 0 ? "text-green-600" : "text-black/80"}`}
           >
-            ${model.price === 0 ? "free" : model.price}
+            {model.price === 0 ? "free" : `$${model.price}`}
           </span>
-          <span className="text-gray-500 text-lg"> /month</span>
+          <span className="text-gray-500 text-lg"> {model.price === 0 ? "" : "/month"}</span>
         </div>
 
-        <button className="w-full bg-red-500 hover:bg-red-600 transition-all text-white font-semibold py-4 rounded-2xl text-lg shadow-lg active:scale-95">
-          Subscribe Now
+        <button onClick={handleSubscribe} className="w-full bg-red-500 hover:bg-red-600 transition-all text-white font-semibold py-4 rounded-2xl text-lg shadow-lg active:scale-95">
+          {
+            isSubscribe ? "Subscribed" : "Subscribe Now"
+          }
         </button>
       </div>
     </div>
