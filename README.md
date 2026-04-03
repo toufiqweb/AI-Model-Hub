@@ -50,5 +50,5 @@ A modern, sleek web platform where users can browse, subscribe, and manage multi
 
 ---
 ##  Developer
-- GitHub: @toufiqweb
+- GitHub: [toufiqweb](https://github.com/toufiqweb)
 
