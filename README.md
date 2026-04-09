@@ -1,22 +1,43 @@
 #  AI Model Hub
 
-**One Subscription • Access to many Frontier AI Models**
+**A modern, sleek web platform that allows users to browse, subscribe to, and manage multiple AI models...**
 
-A modern, sleek web platform where users can browse, subscribe, and manage multiple AI models (ChatGPT, Grok, Claude, Gemini, DeepSeek, Kimi, Mistral, Meta AI, etc.) under a single powerful subscription.
+## 🧠 Overview
 
-
-##  Live Demo
-[View Live Project](https://ai-model-hub-m.netlify.app/) <!-- Add your deployed link here -->
+AI Model Hub is a modern platform that allows users to explore and subscribe to multiple AI models in one place. It simplifies access to tools like ChatGPT, Claude, Gemini, and more with a clean and user-friendly interface.
 
 
-##  Technologies Used
+## 📸 Screenshot
+
+![AI Model Hub](https://i.ibb.co.com/NnYDP8V9/Chat-GPT-Image-Apr-9-2026-02-18-05-PM.png)
+
+## 🔗 Links
+
+- 🌐 Live Site: [View Live Site](https://ai-model-hub-m.netlify.app/) 
+- 💻 GitHub Repo: [View Repo ](https://github.com/toufiqweb/AI-Model-Hub)
+ <!-- Add your deployed link here -->
+
+
+## 🛠️ Technologies Used
 
 - **React.js** (with Vite)
-- **Tailwind CSS**
-- **DaisyUI** (for beautiful components)
-- **JavaScript (ES6+)**
-- **React-Toastify** (for elegant notifications)
-- **JSON** (for managing product/AI model data)
+- **Tailwind CSS + DaisyUI**
+- **Modern JavaScript (ES6+)**
+- **Component-Based Architecture**
+- **Responsive UI Design**
+  
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react)
+![Tailwind](https://img.shields.io/badge/TailwindCSS-38B2AC?style=for-the-badge&logo=tailwind-css)
+---
+
+## 📦 Dependencies
+
+- react
+- react-dom
+- react-router-dom
+- react-toastify
+- tailwindcss
+- daisyui
 
 ---
 
@@ -41,14 +62,37 @@ A modern, sleek web platform where users can browse, subscribe, and manage multi
 
 ---
 
-##  Design Highlights
+## 🚀 Run Locally
 
-- Smooth hover animations and micro-interactions
-- Beautiful toast notifications using **React-Toastify**
-- Fully responsive (mobile + desktop)
-- Professional footer with quick links
+**Clone the project**
+```bash
+git clone https://github.com/toufiqweb/AI-Model-Hub.git
+```
 
+**Go to the project directory**
+   
+```bash
+cd AI-Model-Hub
+```
+
+**Install dependencies**
+   
+```bash
+npm install
+```
+**Start the development server**
+   
+```bash
+npm run dev
+```
+**Open in browser**
+   
+```bash
+http://localhost:5173
+```
 ---
 ##  Developer
+
+- Name: Toufiq Alahe
 - GitHub: [toufiqweb](https://github.com/toufiqweb)
 
