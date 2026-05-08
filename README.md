@@ -9,7 +9,7 @@ AI Model Hub is a modern platform that allows users to explore and subscribe to 
 
 ## 📸 Screenshot
 
-![AI Model Hub](https://i.ibb.co.com/NnYDP8V9/Chat-GPT-Image-Apr-9-2026-02-18-05-PM.png)
+![AI Model Hub](https://i.ibb.co.com/Xkd41TGY/Chat-GPT-Image-May-8-2026-12-51-53-PM.png)
 
 ## 🔗 Links
 
